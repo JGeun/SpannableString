@@ -1,0 +1,36 @@
+{
+  "richText":[
+    {
+      "image": "https://icons.iconarchive.com/icons/paomedia/small-n-flat/32/star-icon.png",
+      "size": 14
+    },
+    {
+      "text": "Hello\n",
+      "style": "underline",
+      "color": "#FF0000",
+      "size": 20
+    },
+    {
+      "text": "     "
+    },
+    {
+      "image": "https://icons.iconarchive.com/icons/paomedia/small-n-flat/32/key-icon.png",
+      "size": 14
+    },
+    {
+      "text": " I'm JGeun\n",
+      "style": "bold",
+      "size": 10
+    },
+    {
+      "text": "SpannableString Example",
+      "color": "#00FF00",
+      "size": 8
+    },
+    {
+      "image": "https://icons.iconarchive.com/icons/paomedia/small-n-flat/32/star-icon.png",
+      "size": 14
+    }
+  ]
+}
+
