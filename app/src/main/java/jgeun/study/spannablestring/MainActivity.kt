@@ -3,7 +3,9 @@ package jgeun.study.spannablestring
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.gson.Gson
+import jgeun.study.spannablestring.data.RichText
 import jgeun.study.spannablestring.databinding.ActivityMainBinding
+import jgeun.study.spannablestring.util.SpannableTextProvider
 import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +23,6 @@ class MainActivity : AppCompatActivity() {
         val response = gson.fromJson(jsonArray.toString(), Array<RichText>::class.java).toList()
 
 
-        SpannableTextProvider.provide(binding.spannableText, response)
+        SpannableTextProvider.getSpannableStringBuilder(response, binding.spannableText.context)
     }
 }
